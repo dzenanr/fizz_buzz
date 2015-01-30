@@ -1,0 +1,7 @@
+name: fizz_buzz
+version: 0.0.1
+description: Fizz Buzz problem.
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dev_dependencies:
+  #unittest: any
