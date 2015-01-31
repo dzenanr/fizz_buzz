@@ -95,6 +95,12 @@ String fizzBuzz07([int count = 100]) {
   return s;
 }
 
+List<int> fizzBuzz08([int count = 100]) {
+  return new Iterable.generate(count, (int i) => i + 1).map((i) => 
+      '${(i % 3 == 0 ? "Fizz" : "")}'
+      '${(i % 5 == 0 ? "Buzz" : "")}'
+      '${(i % 3 != 0 && i % 5 != 0 ? i.toString() : "")}').toList(); 
+}
 
 
 

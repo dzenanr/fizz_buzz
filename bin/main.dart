@@ -32,6 +32,10 @@ fizzbuzzing() {
   print('-----------');
   print(fizzBuzz07(30));
   print('');
+  print('Fizz Buzz 8');
+  print('-----------');
+  print(fizzBuzz08(30));
+  print('');
 }
 
 main() { 
