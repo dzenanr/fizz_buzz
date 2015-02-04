@@ -36,6 +36,7 @@ fizzbuzzing() {
   print('-----------');
   print(fizzBuzz08(30));
   print(fizzBuzz08(30).toList());
+  print(fizzBuzz08(30).join(' '));
   print('');
 }
 
